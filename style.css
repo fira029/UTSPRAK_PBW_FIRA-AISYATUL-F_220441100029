@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container border {
+    width: 1762px;
+    height: 721px;
+    top: 331px;
+    left: 79px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(224, 224, 224);
+}
+
+.row{
+    margin-top: 7%;
+}
+h1{
+    text-align: center;
+}
+h1 span{
+    color: var(--color-main);
+}
+.navbar-brand span{
+    color: var(--color-main);
+    font-size: 130%;
+    font-weight: bold;
+}
+
+a.navbar-brand  {
+    font-size: medium ;
+}
+
+
+.offcanvas-body button{
+    position: absolute;
+    bottom: 15px;
+    width: 98%;
+    right: 10px;
+    font-weight: bold;
+    left: 5px;
+    text-align: center;
+}
+
+.btn{
+    background-color: red;
+}
+
+.fixed-top{
+    background-color: blue;
+}
+
+
+.btn-edit{
+background: #87A9FF;
+border-radius: 5px;
+}
+
+.btn-hapus{
+    background: #FF5E5E;
+    border-radius: 5px;
+    }
+
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+      }
+      
+      form.example button {
+        float: left;
+        width: 15%;
+        padding: 10px;
+        background: #98CDFE;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        /* position: relative;
+        left: -8; */
+      }
+      
+      form.example button:hover {
+        background: #0b7dda;
+      }
+      
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
